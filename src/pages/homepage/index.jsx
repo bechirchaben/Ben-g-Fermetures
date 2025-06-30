@@ -49,7 +49,7 @@ const Homepage = () => {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
-                Spécialiste des fermetures et de la sécurité depuis plus de 15 ans. 
+                Spécialiste des fermetures et de la sécurité depuis plus de 13 ans. 
                 Votre protection est notre précision, votre tranquillité notre engagement.
               </p>
               <div className="flex space-x-4">

@@ -59,40 +59,7 @@ const EmergencyBanner = () => {
         </div>
       </div>
 
-      {/* Mobile Emergency Banner - Sticky */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-primary/95 backdrop-blur-security border-t border-primary-400">
-        <div className="flex items-center justify-between text-primary-foreground">
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center">
-              <Icon name="AlertTriangle" size={20} />
-            </div>
-            <div>
-              <div className="font-semibold text-sm">Urgence 24/7</div>
-              <div className="text-xs opacity-90">Intervention &lt; 2h</div>
-            </div>
-          </div>
-          <div className="flex items-center space-x-2">
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={handleClose}
-              className="text-primary-foreground hover:bg-white/20 p-2"
-            >
-              <Icon name="X" size={16} />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={handleEmergencyCall}
-              className="text-primary-foreground hover:bg-white/20 px-4 py-2"
-              iconName="Phone"
-              iconPosition="left"
-            >
-              Appeler
-            </Button>
-          </div>
-        </div>
-      </div>
+      
     </>
   );
 };

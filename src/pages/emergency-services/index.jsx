@@ -27,17 +27,7 @@ const EmergencyServices = () => {
       <LiveChatWidget />
 
       {/* Mobile Emergency Bar */}
-      <div className="lg:hidden mobile-contact-sticky">
-        <div className="flex space-x-3">
-          <a
-            href="tel:+33782885505"
-            className="flex-1 bg-primary text-white text-center py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center space-x-2"
-          >
-            <span>📞</span>
-            <span>Urgence</span>
-          </a>
-        </div>
-      </div>
+      
     </div>
   );
 };
